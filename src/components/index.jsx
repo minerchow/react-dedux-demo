@@ -35,7 +35,7 @@ class Counter extends Component {
                 <ul>
                    {list}
                 </ul>
-                <button onClick={this.props.increment}> + </button>
+                <button onClick={(id)=>{this.props.increment(1)}}> + </button>
                 <button onClick={this.props.decrement}> - </button>
                 <button onClick={this.props.asyncIncrement}> 异步的+ </button>
                 <button onClick={this.props.asyncGetData}>获取数据</button>

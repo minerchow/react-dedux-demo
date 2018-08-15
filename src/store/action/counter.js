@@ -1,7 +1,7 @@
     import axios from 'axios';
-    export const increment=(e)=>{
-        console.log(e)
-        return {type:'INCREMENT'}
+    export const increment=(id)=>{
+       // console.log(id)
+        return {type:'INCREMENT',id:id}
     }
     export const decrement=()=>{
         return {type:'DECREMENT'}

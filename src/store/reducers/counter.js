@@ -4,7 +4,7 @@ const defaultState =fromJS({
     number:1,list:[]
 })
 export default function(state = defaultState, action) {
-   // console.log(action)
+    console.log(action)
     switch(action.type){
         case 'INCREMENT':
             //没有使用immuatable
